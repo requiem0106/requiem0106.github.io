@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "title": "Learning medicine, one day at a time.",
+    "lead": "I’m Joycean, a first-year medical student at UNIMAS. This is where I share what I’m studying and how my journey is going.",
+    "facts": "MBBS Year 1, UNIMAS, Sarawak, From Sarikei"
+  },
+  "about": "I grew up in Sarikei, Sarawak, and I’m now studying medicine at Universiti Malaysia Sarawak. I’m interested in how the body works at the molecular level and how that knowledge turns into better care for patients.\n\nI’m building this site to keep myself accountable, to organise what I learn, and to share it with other students who are on the same path.",
+  "notes": [
+    {
+      "title": "SGLT1 and intestinal glucose absorption",
+      "tag": "Biochemistry",
+      "body": "SGLT1 is a sodium-glucose cotransporter on the apical membrane of small intestine enterocytes.\n- It moves 2 Na⁺ with each glucose molecule, using the sodium gradient to take up glucose against its concentration gradient.\n- The gradient is maintained by the Na⁺/K⁺ ATPase on the basolateral membrane, so this is secondary active transport.\n- Glucose then leaves the cell through GLUT2 by facilitated diffusion."
+    },
+    {
+      "title": "The cardiac cycle in four steps",
+      "tag": "Physiology",
+      "body": "- Isovolumetric contraction: all valves closed, ventricular pressure rises.\n- Ejection: the aortic and pulmonary valves open and blood leaves the ventricles.\n- Isovolumetric relaxation: valves close again and pressure falls.\n- Filling: the AV valves open and the ventricles refill, topped up by atrial contraction."
+    },
+    {
+      "title": "Oral rehydration therapy",
+      "tag": "Clinical basics",
+      "body": "Oral rehydration solution works because glucose and sodium are absorbed together through SGLT1, and water follows by osmosis. This is why it stays effective in many diarrhoeal illnesses even when the gut is inflamed."
+    }
+  ],
+  "log": [
+    {
+      "date": "31 October 2026",
+      "title": "Launched this website",
+      "text": "Created this space to record my progress and share my notes. Goal for the coming weeks: add one study note and one log entry every week."
+    },
+    {
+      "date": "29 October 2026",
+      "title": "Problem-based learning: food poisoning case",
+      "text": "Worked through the biological domain of a typhoid case, with a focus on how glucose is absorbed in the gut."
+    },
+    {
+      "date": "25 October 2026",
+      "title": "Group poster on non-communicable diseases",
+      "text": "Designed a poster with my team on breast cancer awareness in Malaysia. Learned how much clear layout helps a health message land."
+    }
+  ]
+}
