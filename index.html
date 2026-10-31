@@ -51,18 +51,21 @@ details[open] summary::after{content:"\2212"}
 .log h3{font:600 21px/1.3 "Newsreader",Georgia,serif;margin:2px 0 6px}
 .log p{margin:0;max-width:36em}
 footer{padding:40px 0 56px;border-top:1px solid var(--line);color:var(--muted);font-size:14.5px}
-</style></head><body><header class="nav"><div class="wrap"><a class="brand" href="#top">Joycean</a>
+figure{margin:16px 0 0}figure img{display:block;max-width:100%;height:auto;border-radius:10px;border:1px solid var(--line)}figure video{display:block;width:100%;border-radius:10px;border:1px solid var(--line)}.yt{position:relative;aspect-ratio:16/9}.yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:10px}</style></head><body><header class="nav"><div class="wrap"><a class="brand" href="#top">Joycean</a>
 <nav aria-label="Primary"><a href="#about">About</a><a href="#notes">Notes</a><a href="#log">Log</a></nav></div></header><main id="root" class="wrap"></main><footer><div class="wrap">© 2026 Joycean. Medical student at Universiti Malaysia Sarawak. Notes are for learning and are not medical advice.</div></footer><script>
 const root=document.getElementById('root');
 const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 const rich=t=>{let o='',ul=false;String(t).split('\n').forEach(l=>{l=l.trim();if(!l){if(ul){o+='</ul>';ul=false}return}if(l.startsWith('- ')){if(!ul){o+='<ul>';ul=true}o+='<li>'+esc(l.slice(2))+'</li>'}else{if(ul){o+='</ul>';ul=false}o+='<p>'+esc(l)+'</p>'}});return o+(ul?'</ul>':'')};
+const img=o=>o.image?'<figure><img src="'+esc(o.image)+'" alt="'+esc(o.alt||'')+'" loading="lazy"></figure>':'';
+const yt=u=>{const m=String(u).match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{11})/);return m?m[1]:''};
+const media=o=>img(o)+(o.video?'<figure><video controls preload="metadata" playsinline src="'+esc(o.video)+'"'+(o.poster?' poster="'+esc(o.poster)+'"':'')+'></video></figure>':'')+(yt(o.youtube||'')?'<figure class="yt"><iframe src="https://www.youtube-nocookie.com/embed/'+yt(o.youtube)+'" title="'+esc(o.alt||'Video')+'" loading="lazy" allowfullscreen></iframe></figure>':'');
 const ECG='M0 36 H150 L170 36 L184 8 L200 58 L214 28 L228 36 H400 L420 36 L434 8 L450 58 L464 28 L478 36 H650 L670 36 L684 8 L700 58 L714 28 L728 36 H800';
 function render(D){
 const h=D.hero;
 root.innerHTML='<div class="hero" id="top"><h1>'+esc(h.title)+'</h1><p class="lead">'+esc(h.lead)+'</p><svg class="ecg" viewBox="0 0 800 64" preserveAspectRatio="none" aria-hidden="true"><path d="'+ECG+'"/></svg><div class="facts">'+h.facts.split(',').filter(f=>f.trim()).map(f=>'<span>'+esc(f.trim())+'</span>').join('')+'</div></div>'
 +'<section id="about" class="about"><h2>About me</h2><p class="sub">Who I am and what I’m working towards.</p>'+D.about.split(/\n\s*\n/).filter(p=>p.trim()).map(p=>'<p>'+esc(p.trim())+'</p>').join('')+'</section>'
-+'<section id="notes"><h2>Study notes</h2><p class="sub">Short summaries of topics I’ve worked through. Tap a topic to open it.</p>'+D.notes.map((n,i)=>'<details'+(i===0?' open':'')+'><summary>'+esc(n.title)+'<small>'+esc(n.tag)+'</small></summary><div class="body">'+rich(n.body)+'</div></details>').join('')+'</section>'
-+'<section id="log"><h2>Daily log</h2><p class="sub">What I did, what I learned, and what’s next. Newest first.</p><ol class="log">'+D.log.map(l=>'<li><time>'+esc(l.date)+'</time><h3>'+esc(l.title)+'</h3><p>'+esc(l.text)+'</p></li>').join('')+'</ol></section>';
++'<section id="notes"><h2>Study notes</h2><p class="sub">Short summaries of topics I’ve worked through. Tap a topic to open it.</p>'+D.notes.map((n,i)=>'<details'+(i===0?' open':'')+'><summary>'+esc(n.title)+'<small>'+esc(n.tag)+'</small></summary><div class="body">'+rich(n.body)+media(n)+'</div></details>').join('')+'</section>'
++'<section id="log"><h2>Daily log</h2><p class="sub">What I did, what I learned, and what’s next. Newest first.</p><ol class="log">'+D.log.map(l=>'<li><time>'+esc(l.date)+'</time><h3>'+esc(l.title)+'</h3><p>'+esc(l.text)+'</p>'+media(l)+'</li>').join('')+'</ol></section>';
 }
 fetch('content.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(render).catch(e=>{root.innerHTML='<section><h2>Content could not be loaded</h2><p class="sub">Check that content.json is in the same folder as index.html and that its punctuation is valid.</p></section>'});
 </script></body></html>
