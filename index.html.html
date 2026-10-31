@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Joycean | Medical Student, UNIMAS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style id="css">
+:root{--bg:#F6F8F9;--surface:#FFFFFF;--ink:#14283C;--muted:#5A6B7B;--line:#D9E1E6;--accent:#0E7C86;--tint:#E3F0F1;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1B26;--surface:#162636;--ink:#E8EEF2;--muted:#9FB0BD;--line:#274055;--accent:#4FC3CC;--tint:#143B44}}
+:root[data-theme="dark"]{--bg:#0F1B26;--surface:#162636;--ink:#E8EEF2;--muted:#9FB0BD;--line:#274055;--accent:#4FC3CC;--tint:#143B44}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 72px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 "Public Sans",system-ui,sans-serif}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{max-width:860px;margin:0 auto;padding:0 24px}
+header.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:30}
+.nav .wrap{display:flex;justify-content:space-between;align-items:center;height:56px}
+.brand{font:600 19px "Newsreader",Georgia,serif;text-decoration:none;color:var(--ink)}
+nav{display:flex;gap:20px;font-size:15px;font-weight:500}
+nav a{color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--accent)}
+.hero{padding:72px 0 56px}
+.hero h1{font:600 clamp(40px,8vw,68px)/1.05 "Newsreader",Georgia,serif;margin:0 0 20px;letter-spacing:-.02em}
+.hero p.lead{font-size:20px;color:var(--muted);max-width:34em;margin:0 0 28px}
+.ecg{display:block;width:100%;height:64px;margin:8px 0 32px}
+.ecg path{fill:none;stroke:var(--accent);stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 2.4s ease-out forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){.ecg path{animation:none;stroke-dashoffset:0}html{scroll-behavior:auto}}
+.facts{display:flex;flex-wrap:wrap;gap:10px}
+.facts span{background:var(--tint);color:var(--ink);padding:6px 14px;border-radius:999px;font-size:14.5px;font-weight:500}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font:600 32px/1.2 "Newsreader",Georgia,serif;margin:0 0 8px;letter-spacing:-.01em}
+.sub{color:var(--muted);margin:0 0 32px;max-width:36em}
+.about p{max-width:38em;margin:0 0 16px}
+details{background:var(--surface);border:1px solid var(--line);border-radius:10px;margin-bottom:12px}
+summary{cursor:pointer;padding:18px 22px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:baseline}
+summary::-webkit-details-marker{display:none}
+summary small{font-weight:400;color:var(--muted);font-size:14px;white-space:nowrap}
+summary::after{content:"+";color:var(--accent);font-size:22px;font-weight:400;margin-left:auto;padding-left:12px}
+details[open] summary::after{content:"\2212"}
+.body{padding:0 22px 20px;max-width:38em}
+.body ul{padding-left:20px;margin:8px 0}
+.log{list-style:none;margin:0;padding:0 0 0 22px;border-left:2px solid var(--line)}
+.log li{position:relative;padding:0 0 32px 12px}
+.log li::before{content:"";position:absolute;left:-30px;top:8px;width:12px;height:12px;border-radius:50%;background:var(--accent);border:3px solid var(--bg)}
+.log time{display:block;font-size:14px;color:var(--muted);font-weight:500}
+.log h3{font:600 21px/1.3 "Newsreader",Georgia,serif;margin:2px 0 6px}
+.log p{margin:0;max-width:36em}
+footer{padding:40px 0 56px;border-top:1px solid var(--line);color:var(--muted);font-size:14.5px}
+.fab{position:fixed;right:20px;bottom:calc(env(safe-area-inset-bottom,0px) + 20px);z-index:40;background:var(--accent);color:var(--bg);border:0;border-radius:999px;padding:12px 20px;font:600 15px "Public Sans",sans-serif;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.2)}
+#panel{position:fixed;inset:0;z-index:50;background:var(--bg);overflow:auto;padding:calc(env(safe-area-inset-top,0px) + 24px) 0 calc(env(safe-area-inset-bottom,0px) + 24px)}
+#panel[hidden]{display:none}
+#panel fieldset{border:1px solid var(--line);border-radius:10px;margin:0 0 20px;padding:16px}
+#panel legend{font-weight:600;padding:0 8px}
+#panel label{display:block;font-size:14px;font-weight:500;color:var(--muted);margin:0 0 12px}
+#panel input,#panel textarea{display:block;width:100%;margin-top:4px;padding:10px 12px;font:400 16px/1.5 "Public Sans",sans-serif;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px}
+#panel .item{border-top:1px solid var(--line);padding-top:14px;margin-top:14px}
+#panel .item:first-of-type{border-top:0;margin-top:0;padding-top:0}
+#panel button{font:500 15px "Public Sans",sans-serif;padding:9px 16px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+#panel button.primary{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+#panel .bar{display:flex;gap:12px;position:sticky;bottom:0;background:var(--bg);padding:12px 0}
+</style>
+</head>
+<body>
+<header class="nav"><div class="wrap"><a class="brand" href="#top">Joycean</a>
+<nav aria-label="Primary"><a href="#about">About</a><a href="#notes">Notes</a><a href="#log">Log</a></nav></div></header>
+
+<main id="root" class="wrap"></main>
+
+<footer><div class="wrap">© 2026 Joycean. Medical student at Universiti Malaysia Sarawak. Notes are for learning and are not medical advice.</div></footer>
+<script type="application/json" id="site-data">{"hero":{"title":"Learning medicine, one day at a time.","lead":"I’m Joycean, a first-year medical student at UNIMAS. This is where I share what I’m studying and how my journey is going.","facts":"MBBS Year 1, UNIMAS, Sarawak, From Sarikei"},
+"about":"I grew up in Sarikei, Sarawak, and I’m now studying medicine at Universiti Malaysia Sarawak. I’m interested in how the body works at the molecular level and how that knowledge turns into better care for patients.\n\nI’m building this site to keep myself accountable, to organise what I learn, and to share it with other students who are on the same path.",
+"notes":[
+{"title":"SGLT1 and intestinal glucose absorption","tag":"Biochemistry","body":"SGLT1 is a sodium-glucose cotransporter on the apical membrane of small intestine enterocytes.\n- It moves 2 Na⁺ with each glucose molecule, using the sodium gradient to take up glucose against its concentration gradient.\n- The gradient is maintained by the Na⁺/K⁺ ATPase on the basolateral membrane, so this is secondary active transport.\n- Glucose then leaves the cell through GLUT2 by facilitated diffusion."},
+{"title":"The cardiac cycle in four steps","tag":"Physiology","body":"- Isovolumetric contraction: all valves closed, ventricular pressure rises.\n- Ejection: the aortic and pulmonary valves open and blood leaves the ventricles.\n- Isovolumetric relaxation: valves close again and pressure falls.\n- Filling: the AV valves open and the ventricles refill, topped up by atrial contraction."},
+{"title":"Oral rehydration therapy","tag":"Clinical basics","body":"Oral rehydration solution works because glucose and sodium are absorbed together through SGLT1, and water follows by osmosis. This is why it stays effective in many diarrhoeal illnesses even when the gut is inflamed."}],
+"log":[
+{"date":"31 October 2026","title":"Launched this website","text":"Created this space to record my progress and share my notes. Goal for the coming weeks: add one study note and one log entry every week."},
+{"date":"29 October 2026","title":"Problem-based learning: food poisoning case","text":"Worked through the biological domain of a typhoid case, with a focus on how glucose is absorbed in the gut."},
+{"date":"25 October 2026","title":"Group poster on non-communicable diseases","text":"Designed a poster with my team on breast cancer awareness in Malaysia. Learned how much clear layout helps a health message land."}]}</script>
+<script id="app">(function(){
+const q=s=>document.querySelector(s);
+const root=q('#root'),dataEl=q('#site-data');
+let D=JSON.parse(dataEl.textContent);
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const rich=t=>{let o='',ul=false;String(t).split('\n').forEach(l=>{l=l.trim();if(!l){if(ul){o+='</ul>';ul=false}return}if(l.startsWith('- ')){if(!ul){o+='<ul>';ul=true}o+='<li>'+esc(l.slice(2))+'</li>'}else{if(ul){o+='</ul>';ul=false}o+='<p>'+esc(l)+'</p>'}});return o+(ul?'</ul>':'')};
+const ECG='M0 36 H150 L170 36 L184 8 L200 58 L214 28 L228 36 H400 L420 36 L434 8 L450 58 L464 28 L478 36 H650 L670 36 L684 8 L700 58 L714 28 L728 36 H800';
+function render(){
+const h=D.hero;
+root.innerHTML='<div class="hero" id="top"><h1>'+esc(h.title)+'</h1><p class="lead">'+esc(h.lead)+'</p><svg class="ecg" viewBox="0 0 800 64" preserveAspectRatio="none" aria-hidden="true"><path d="'+ECG+'"/></svg><div class="facts">'+h.facts.split(',').filter(f=>f.trim()).map(f=>'<span>'+esc(f.trim())+'</span>').join('')+'</div></div>'
++'<section id="about" class="about"><h2>About me</h2><p class="sub">Who I am and what I’m working towards.</p>'+D.about.split(/\n\s*\n/).filter(p=>p.trim()).map(p=>'<p>'+esc(p.trim())+'</p>').join('')+'</section>'
++'<section id="notes"><h2>Study notes</h2><p class="sub">Short summaries of topics I’ve worked through. Tap a topic to open it.</p>'+D.notes.map((n,i)=>'<details'+(i===0?' open':'')+'><summary>'+esc(n.title)+'<small>'+esc(n.tag)+'</small></summary><div class="body">'+rich(n.body)+'</div></details>').join('')+'</section>'
++'<section id="log"><h2>Daily log</h2><p class="sub">What I did, what I learned, and what’s next. Newest first.</p><ol class="log">'+D.log.map(l=>'<li><time>'+esc(l.date)+'</time><h3>'+esc(l.title)+'</h3><p>'+esc(l.text)+'</p></li>').join('')+'</ol></section>';
+}
+render();
+
+function buildDoc(){
+const json=JSON.stringify(D).replace(/</g,'\\u003c');
+return '<!DOCTYPE html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>'+esc(document.title)+'</title>'+q('link[rel=preconnect]').outerHTML+q('link[href*="fonts.googleapis.com/css2"]').outerHTML+'<style id="css">'+q('#css').textContent+'</style></head><body>'+q('header.nav').outerHTML+'<main id="root" class="wrap"></main>'+q('footer').outerHTML+'<script type="application/json" id="site-data">'+json+'<\/script><script id="app">'+q('#app').textContent+'<\/script></body></html>';
+}
+
+function setPath(o,path,v){const p=path.split('.');for(let i=0;i<p.length-1;i++)o=o[p[i]];o[p[p.length-1]]=v}
+function f(l,s,v,r){return '<label>'+l+(r?'<textarea rows="'+r+'" data-s="'+s+'">'+esc(v)+'</textarea>':'<input data-s="'+s+'" value="'+esc(v)+'">')+'</label>'}
+function panelHTML(){
+return '<div class="wrap"><h2>Edit site</h2><p class="sub">Only you can see this screen. Changes go live when you save.</p>'
++'<fieldset><legend>Home</legend>'+f('Headline','hero.title',D.hero.title)+f('Intro','hero.lead',D.hero.lead,3)+f('Tags (separate with commas)','hero.facts',D.hero.facts)+'</fieldset>'
++'<fieldset><legend>About me</legend>'+f('Paragraphs (leave a blank line between them)','about',D.about,8)+'</fieldset>'
++'<fieldset><legend>Study notes</legend>'+D.notes.map((n,i)=>'<div class="item">'+f('Title','notes.'+i+'.title',n.title)+f('Subject','notes.'+i+'.tag',n.tag)+f('Content (start a line with "- " for a bullet)','notes.'+i+'.body',n.body,6)+'<button type="button" data-act="del-notes-'+i+'">Delete note</button></div>').join('')+'<div class="item"><button type="button" data-act="add-notes">Add note</button></div></fieldset>'
++'<fieldset><legend>Daily log</legend>'+D.log.map((l,i)=>'<div class="item">'+f('Date','log.'+i+'.date',l.date)+f('Title','log.'+i+'.title',l.title)+f('Text','log.'+i+'.text',l.text,4)+'<button type="button" data-act="del-log-'+i+'">Delete entry</button></div>').join('')+'<div class="item"><button type="button" data-act="add-log">Add entry</button></div></fieldset>'
++'<p id="st" role="status"></p><div class="bar"><button type="button" class="primary" data-act="save">Save and publish</button><button type="button" data-act="close">Cancel</button></div></div>';
+}
+
+function enableEditor(){
+const fab=document.createElement('button');fab.className='fab';fab.type='button';fab.textContent='Edit site';
+const panel=document.createElement('div');panel.id='panel';panel.hidden=true;
+document.body.append(fab,panel);
+const sync=()=>panel.querySelectorAll('[data-s]').forEach(e=>setPath(D,e.dataset.s,e.value));
+const draw=()=>{const y=panel.scrollTop;panel.innerHTML=panelHTML();panel.scrollTop=y};
+const close=()=>{panel.hidden=true;document.body.style.overflow='';D=JSON.parse(dataEl.textContent);render()};
+fab.onclick=()=>{draw();panel.hidden=false;document.body.style.overflow='hidden'};
+panel.onclick=async e=>{
+const a=e.target.dataset&&e.target.dataset.act;if(!a)return;
+sync();
+if(a==='close')return close();
+if(a==='add-notes'){D.notes.push({title:'New note',tag:'Subject',body:''});return draw()}
+if(a==='add-log'){D.log.unshift({date:'',title:'New entry',text:''});return draw()}
+if(a.startsWith('del-')){const[,k,i]=a.split('-');D[k].splice(+i,1);return draw()}
+if(a==='save'){
+const st=panel.querySelector('#st'),b=e.target;b.disabled=true;st.textContent='Publishing…';
+try{const art=await claude.use('artifact');if(!art)throw new Error('Publishing is not available here');await art.publish(buildDoc())}
+catch(err){st.textContent='Could not publish: '+(err.code||err.message||'unknown error');b.disabled=false}
+}};
+}
+(async()=>{try{if(!window.claude)return;const u=await claude.use('user');if(u&&u.isOwner())enableEditor()}catch(e){}})();
+})();
+</script>
+</body>
+</html>
