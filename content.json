@@ -4,7 +4,7 @@
     "lead": "I’m Joycean, a first-year medical student at UNIMAS. This is where I share what I’m studying and how my journey is going.",
     "facts": "MBBS Year 1, UNIMAS, Sarawak, From Sibu"
   },
-  "about": "I grew up in Sarikei, Sarawak, and I’m now studying medicine at Universiti Malaysia Sarawak. I’m interested in how the body works at the molecular level and how that knowledge turns into better care for patients.\n\nI’m building this site to keep myself accountable, to organise what I learn, and to share it with other students who are on the same path.",
+  "about": "I grew up in Sibu, Sarawak, and I’m now studying medicine at Universiti Malaysia Sarawak. I’m interested in how the body works at the molecular level and how that knowledge turns into better care for patients.\n\nI’m building this site to keep myself accountable, to organise what I learn, and to share it with other students who are on the same path.",
   "notes": [
     {
       "title": "SGLT1 and intestinal glucose absorption",
@@ -23,6 +23,11 @@
     }
   ],
   "log": [
+    {
+      "date": "1 November 2026",
+      "title": "Learnt how to make changes to this website",
+      "text": "I'm not really a tech-savvy, but I found coding interesting, especially when the output does work well."
+    },
     {
       "date": "31 October 2026",
       "title": "Launched this website",
