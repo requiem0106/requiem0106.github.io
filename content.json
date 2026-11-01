@@ -47,6 +47,6 @@
   "todos": [
   { "task": "Finish the PBL write-up", "done": false, "due": "6 Nov" },
   { "task": "Revise biochemistry notes", "done": false },
-  { "task": "Launch my website", "done": true }
+  { "task": "Launch my website", "done": true, "due": "1 Nov" }
 ]
 }
