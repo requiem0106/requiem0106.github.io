@@ -110,13 +110,24 @@
   ],
   "todos": [
     {
-      "task": "Finish the PBL write-up",
+      "task": "PPD 1041 Mental health video reflection",
+      "done": false,
+      "due": "4 Nov"
+    },
+    {
+      "task": "MPU 3382 AI portfolio",
       "done": false,
       "due": "6 Nov"
     },
     {
-      "task": "Revise biochemistry notes",
-      "done": false
+      "task": "MPU 31102 Penghantaran poster",
+      "done": false,
+      "due": "22 Nov"
+    },
+    {
+      "task": "MPU 31102 Kuiz LU6",
+      "done": false,
+      "due": "8 Nov"
     },
     {
       "task": "Launch my website",
