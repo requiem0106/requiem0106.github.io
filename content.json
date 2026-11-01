@@ -1,25 +1,83 @@
 {
   "hero": {
-    "title": "A realm for my own redemption",
+    "title": "Learning medicine, one day at a time.",
     "lead": "I’m Joycean, a first-year medical student at UNIMAS. This is where I share what I’m studying and how my journey is going.",
-    "facts": "MBBS Year 1, UNIMAS, Sarawak, From Sibu"
+    "facts": "MBBS Year 1, UNIMAS, Sarawak, From Sarikei"
   },
-  "about": "I grew up in Sibu, Sarawak, and I’m now studying medicine at Universiti Malaysia Sarawak. I’m interested in how the body works at the molecular level and how that knowledge turns into better care for patients.\n\nI’m building this site to keep myself accountable, to organise what I learn, and to share it with other students who are on the same path.",
-  "notes": [
+  "about": "I grew up in Sarikei, Sarawak, and I’m now studying medicine at Universiti Malaysia Sarawak. I’m interested in how the body works at the molecular level and how that knowledge turns into better care for patients.\n\nI’m building this site to keep myself accountable, to organise what I learn, and to share it with other students who are on the same path.",
+  "blocks": [
     {
-      "title": "SGLT1 and intestinal glucose absorption",
-      "tag": "Biochemistry",
-      "body": "SGLT1 is a sodium-glucose cotransporter on the apical membrane of small intestine enterocytes.\n- It moves 2 Na⁺ with each glucose molecule, using the sodium gradient to take up glucose against its concentration gradient.\n- The gradient is maintained by the Na⁺/K⁺ ATPase on the basolateral membrane, so this is secondary active transport.\n- Glucose then leaves the cell through GLUT2 by facilitated diffusion."
+      "name": "Block 1",
+      "notes": [
+        {
+          "title": "SGLT1 and intestinal glucose absorption",
+          "tag": "Biochemistry",
+          "body": "SGLT1 is a sodium-glucose cotransporter on the apical membrane of small intestine enterocytes.\n- It moves 2 Na⁺ with each glucose molecule, using the sodium gradient to take up glucose against its concentration gradient.\n- The gradient is maintained by the Na⁺/K⁺ ATPase on the basolateral membrane, so this is secondary active transport.\n- Glucose then leaves the cell through GLUT2 by facilitated diffusion."
+        },
+        {
+          "title": "The cardiac cycle in four steps",
+          "tag": "Physiology",
+          "body": "- Isovolumetric contraction: all valves closed, ventricular pressure rises.\n- Ejection: the aortic and pulmonary valves open and blood leaves the ventricles.\n- Isovolumetric relaxation: valves close again and pressure falls.\n- Filling: the AV valves open and the ventricles refill, topped up by atrial contraction."
+        },
+        {
+          "title": "Oral rehydration therapy",
+          "tag": "Clinical basics",
+          "body": "Oral rehydration solution works because glucose and sodium are absorbed together through SGLT1, and water follows by osmosis. This is why it stays effective in many diarrhoeal illnesses even when the gut is inflamed."
+        }
+      ]
     },
     {
-      "title": "The cardiac cycle in four steps",
-      "tag": "Physiology",
-      "body": "- Isovolumetric contraction: all valves closed, ventricular pressure rises.\n- Ejection: the aortic and pulmonary valves open and blood leaves the ventricles.\n- Isovolumetric relaxation: valves close again and pressure falls.\n- Filling: the AV valves open and the ventricles refill, topped up by atrial contraction."
+      "name": "Block 2",
+      "current": true,
+      "weeks": [
+        {
+          "label": "Week 1",
+          "title": "Pathological Processes I & Pharmacology I",
+          "notes": []
+        },
+        {
+          "label": "Week 2",
+          "title": "Pathological Processes II & Pharmacology II",
+          "notes": []
+        },
+        {
+          "label": "Week 3",
+          "title": "Pharmacology III",
+          "notes": []
+        },
+        {
+          "label": "Week 4",
+          "title": "Medical Microbiology I",
+          "notes": []
+        },
+        {
+          "label": "Week 5",
+          "title": "Medical Microbiology II",
+          "notes": []
+        },
+        {
+          "label": "Week 6",
+          "title": "Medical Parasitology & Medical Entomology",
+          "notes": []
+        },
+        {
+          "label": "Week 7",
+          "title": "Pharmacology IV",
+          "notes": []
+        }
+      ]
     },
     {
-      "title": "Oral rehydration therapy",
-      "tag": "Clinical basics",
-      "body": "Oral rehydration solution works because glucose and sodium are absorbed together through SGLT1, and water follows by osmosis. This is why it stays effective in many diarrhoeal illnesses even when the gut is inflamed."
+      "name": "Block 3",
+      "notes": []
+    },
+    {
+      "name": "Block 4",
+      "notes": []
+    },
+    {
+      "name": "Block 5",
+      "notes": []
     }
   ],
   "log": [
@@ -45,8 +103,18 @@
     }
   ],
   "todos": [
-  { "task": "Finish the PBL write-up", "done": false, "due": "6 Nov" },
-  { "task": "Revise biochemistry notes", "done": false },
-  { "task": "Launch my website", "done": true, "due": "1 Nov" }
-]
+    {
+      "task": "Finish the PBL write-up",
+      "done": false,
+      "due": "6 Nov"
+    },
+    {
+      "task": "Revise biochemistry notes",
+      "done": false
+    },
+    {
+      "task": "Launch my website",
+      "done": true
+    }
+  ]
 }
