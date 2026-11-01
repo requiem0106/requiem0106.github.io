@@ -36,6 +36,15 @@
           "files": [
     { "label": "Case scenario", "url": "Case_scenario.pdf" }
   ],
+          "files": [
+    { "label": "Cell injury mechanism", "url": "Cell_injury_mechanism.pdf" }
+  ],
+          "files": [
+    { "label": "Intracellular accumulation mechanism", "url": "Intracellular_accumulation_mechanism.pdf" }
+  ],
+          "files": [
+    { "label": "Metastatic and dystrophy calcification", "url": "Metastatic_and_dystrophy_calcification.pdf" }
+  ],
           "notes": []
         },
         {
