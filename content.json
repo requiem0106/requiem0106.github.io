@@ -33,6 +33,9 @@
         {
           "label": "Week 1",
           "title": "Pathological Processes I & Pharmacology I",
+          "files": [
+    { "label": "Case scenario", "url": "Case_scenario.pdf" }
+  ],
           "notes": []
         },
         {
