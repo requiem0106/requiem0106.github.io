@@ -34,8 +34,8 @@
           "label": "Week 1",
           "title": "Pathological Processes I & Pharmacology I",
           "files": [
-     { "label": "Case scenario", "url": "Case_scenario.pdf" },
-    { "label": "Cell injury mechanism", "url": "Cell_injury_mechanism.pdf" },
+     { "label": "Case scenario", "url": "Case_scenario.pdf?v=2" },
+    { "label": "Cell injury mechanism", "url": "Cell_injury_mechanism.pdf?v=2" },
     { "label": "Intracellular accumulation mechanism", "url": "Intracellular_accumulation_mechanism.pdf" },
     { "label": "Metastatic and dystrophy calcification", "url": "Metastatic_and_dystrophy_calcification.pdf" }
   ],
