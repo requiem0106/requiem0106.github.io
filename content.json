@@ -124,12 +124,12 @@
   "todos": [
     {
       "task": "PPD 1041 Mental health video reflection",
-      "done": false,
+      "done": true,
       "due": "4 Nov"
     },
     {
       "task": "MPU 3382 AI portfolio",
-      "done": false,
+      "done": true,
       "due": "6 Nov"
     },
     {
