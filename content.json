@@ -40,7 +40,16 @@
     { "label": "Metastatic and dystrophy calcification", "url": "Metastatic_and_dystrophy_calcification.pdf" },
     { "label": "Pharmacokinetics I", "url": "Pharmacokinetics_I.pdf" },
     { "label": "Pharmacokinetics II", "url": "Pharmacokinetics_II.pdf" },
-    { "label": "Acute inflammation", "url": "Acute_inflammation.pdf" }
+    { "label": "Acute inflammation", "url": "Acute_inflammation.pdf" },
+    { "label": "Mediators of inflammation", "url": "Mediators_of_inflammation.pdf" },
+    { "label": "Leukocyte migration", "url": "Leukocyte_migration.pdf" },
+    { "label": "Leukocyte activation", "url": "Leukocyte_activation.pdf" },
+    { "label": "Complement system", "url": "Complement_system.pdf" },
+    { "label": "Rheumatoid arthritis mechanism", "url": "Rheumatoid_arthritis_mechanism.pdf" },
+    { "label": "Peptic ulcer", "url": "Peptic_ulcer.pdf" },
+    { "label": "Deep vein thrombosis", "url": "Deep_vein_thrombosis.pdf" },
+    { "label": "Liver disease to oedema", "url": "Liver_disease_to_oedema.pdf" },
+    { "label": "Nephrotic syndrome and plasma osmotic pressure", "url": "Nephrotic_syndrome_and_plasma_osmotic_pressure.pdf" }
   ],
           "notes": []
         },
