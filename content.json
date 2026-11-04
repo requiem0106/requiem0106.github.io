@@ -49,7 +49,8 @@
     { "label": "Peptic ulcer", "url": "Peptic_ulcer.pdf" },
     { "label": "Deep vein thrombosis", "url": "Deep_vein_thrombosis.pdf" },
     { "label": "Liver disease to oedema", "url": "Liver_disease_to_oedema.pdf" },
-    { "label": "Nephrotic syndrome and plasma osmotic pressure", "url": "Nephrotic_syndrome_and_plasma_osmotic_pressure.pdf" }
+    { "label": "Nephrotic syndrome and plasma osmotic pressure", "url": "Nephrotic_syndrome_and_plasma_osmotic_pressure.pdf" },
+    { "label": "Clotrimazole vaginal tablet", "url": "Clotrimazole_vaginal_tablet.pdf" }
   ],
           "notes": []
         },
