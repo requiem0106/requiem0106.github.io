@@ -33,26 +33,41 @@
         {
           "label": "Week 1",
           "title": "Pathological Processes I & Pharmacology I",
-          "files": [
-     { "label": "Case senario adaptation, reversible and irreversible cell injury and tissue degeneration", "url": "Case_scenario.pdf?v=3", "important": true },
-    { "label": "Case scenario acute inflammation", "url": "Case_scenario_acute_inflammation.pdf", "important": true },
-    { "label": "Cell injury mechanism", "url": "Cell_injury_mechanism.pdf?v=2" },
-    { "label": "Intracellular accumulation mechanism", "url": "Intracellular_accumulation_mechanism.pdf" },
-    { "label": "Metastatic and dystrophy calcification", "url": "Metastatic_and_dystrophy_calcification.pdf" },
-    { "label": "Pharmacokinetics I", "url": "Pharmacokinetics_I.pdf" },
-    { "label": "Pharmacokinetics II", "url": "Pharmacokinetics_II.pdf" },
-    { "label": "Acute inflammation", "url": "Acute_inflammation.pdf" },
-    { "label": "Mediators of inflammation", "url": "Mediators_of_inflammation.pdf" },
-    { "label": "Leukocyte migration", "url": "Leukocyte_migration.pdf" },
-    { "label": "Leukocyte activation", "url": "Leukocyte_activation.pdf" },
-    { "label": "Complement system", "url": "Complement_system.pdf" },
-    { "label": "Rheumatoid arthritis mechanism", "url": "Rheumatoid_arthritis_mechanism.pdf" },
-    { "label": "Peptic ulcer", "url": "Peptic_ulcer.pdf" },
-    { "label": "Deep vein thrombosis", "url": "Deep_vein_thrombosis.pdf" },
-    { "label": "Liver disease to oedema", "url": "Liver_disease_to_oedema.pdf" },
-    { "label": "Nephrotic syndrome and plasma osmotic pressure", "url": "Nephrotic_syndrome_and_plasma_osmotic_pressure.pdf" },
-    { "label": "Clotrimazole vaginal tablet", "url": "Clotrimazole_vaginal_tablet.pdf" }
-  ],
+          "folders": [
+  {
+    "name": "Adaptation, reversible and irreversible cell injury and tissue degeneration",
+    "files": [
+      { "label": "Case scenario adaptation, reversible and irreversible cell injury and tissue degeneration", "url": "Case_scenario.pdf?v=3", "important": true },
+      { "label": "Cell injury mechanism", "url": "Cell_injury_mechanism.pdf?v=2" },
+      { "label": "Intracellular accumulation mechanism", "url": "Intracellular_accumulation_mechanism.pdf" },
+      { "label": "Metastatic and dystrophy calcification", "url": "Metastatic_and_dystrophy_calcification.pdf" }
+    ]
+  }，
+  {
+    "name": "Acute inflammation",
+    "files": [
+      { "label": "Case scenario acute inflammation", "url": "Case_scenario_acute_inflammation.pdf", "important": true },
+      { "label": "Acute inflammation", "url": "Acute_inflammation.pdf" },
+      { "label": "Mediators of inflammation", "url": "Mediators_of_inflammation.pdf" },
+      { "label": "Leukocyte migration", "url": "Leukocyte_migration.pdf" },
+      { "label": "Leukocyte activation", "url": "Leukocyte_activation.pdf" },
+      { "label": "Complement system", "url": "Complement_system.pdf" },
+      { "label": "Rheumatoid arthritis mechanism", "url": "Rheumatoid_arthritis_mechanism.pdf" },
+      { "label": "Peptic ulcer", "url": "Peptic_ulcer.pdf" },
+      { "label": "Deep vein thrombosis", "url": "Deep_vein_thrombosis.pdf" },
+      { "label": "Liver disease to oedema", "url": "Liver_disease_to_oedema.pdf" },
+      { "label": "Nephrotic syndrome and plasma osmotic pressure", "url": "Nephrotic_syndrome_and_plasma_osmotic_pressure.pdf" }
+    ]
+  }，
+  {
+    "name": "Pharmacokinetics",
+    "files": [
+      { "label": "Pharmacokinetics I", "url": "Pharmacokinetics_I.pdf" },
+      { "label": "Pharmacokinetics II", "url": "Pharmacokinetics_II.pdf" },
+      { "label": "Clotrimazole vaginal tablet", "url": "Clotrimazole_vaginal_tablet.pdf" }
+    ]
+  }
+],
           "notes": []
         },
         {
