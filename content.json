@@ -161,12 +161,22 @@
     },
     {
       "task": "MPU 31102 Kuiz LU6",
-      "done": false,
+      "done": true,
       "due": "8 Nov"
     },
     {
       "task": "Launch my website",
       "done": true
+    },
+    {
+      "task": "MPU 31102 Kuiz LU8",
+      "done": false,
+      "due": "Nov"
+    },
+    {
+      "task": "MDP 10906 Quiz Assessment",
+      "done": false,
+      "due": "20 Nov"
     }
   ],
   "gallery": [
