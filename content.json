@@ -168,5 +168,12 @@
       "task": "Launch my website",
       "done": true
     }
-  ]
+  ],
+  "gallery": [
+  {
+    "title": "Spring poem",
+    "date": "8 November 2026",
+    "image": "art1.jpg"
+  }
+],
 }
