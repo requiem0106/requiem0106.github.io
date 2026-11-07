@@ -171,9 +171,64 @@
   ],
   "gallery": [
   {
-    "title": "Spring poem",
-    "date": "8 November 2026",
-    "image": "art1.jpg"
+    "name": "Calligraphy",
+    "works": [
+      {
+        "title": "蜀素帖临摹 I",
+        "date": "2022",
+        "image": "Calligraphy_1.jpg"
+      },
+      {
+        "title": "蜀素帖临摹 II",
+        "date": "2022",
+        "image": "Calligraphy_2.jpg"
+      },
+      {
+        "title": "治城（陈轩作）I",
+        "date": "2023",
+        "image": "Calligraphy_3.jpg"
+      },
+      {
+        "title": "治城（陈轩作）II",
+        "date": "2023",
+        "image": "Calligraphy_4.jpg"
+      },
+      {
+        "title": "游鼓山（朱德作）I",
+        "date": "2023",
+        "image": "Calligraphy_5.jpg"
+      },
+       {
+        "title": "游鼓山（朱德作）II",
+        "date": "2023",
+        "image": "Calligraphy_6.jpg"
+      },
+       {
+        "title": "利州南渡（温庭筠作）",
+        "date": "2023",
+        "image": "Calligraphy_7.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Drawing",
+    "works": [
+      {
+        "title": "A lurking crocodile",
+        "date": "November 2026",
+        "image": "Drawing_1.jpg"
+      }
+    ]
   }
 ],
+  "writing": [
+  {
+    "title": "Untitled",
+    "date": "2024",
+    "body": ""Have you ever beheld such a paragon of indefatigable beauty? This exquisite creation ought to be venerated and lauded for countless years, a shining testament to human ingenuity. Its very existence speaks to the unparalleled craftsmanship that only human hands could bestow, an artefact of profound and enduring magnificence. This is no mere object but a testament to the timeless brilliance of human artistry.""
+  }
+],
+  "music": [
+  { "youtube": "https://youtu.be/0-7IHOXkiV8?si=OJUkAUagtAhNUDLM" }
+]
 }
