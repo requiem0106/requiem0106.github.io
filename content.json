@@ -139,34 +139,6 @@
       "notes": []
     }
   ],
-  "log": [
-    {
-  "date": "5 November 2026",
-  "title": "You're a good man, Arthur Morgan",
-  "text": "We all wish Arthur would’ve went with Mary in Saint Denis and left the gang...",
-  "youtube": "https://youtu.be/hpXZjeIaZZc?si=nPhLmHoZmeAASSdt"
-    },
-    {
-      "date": "1 November 2026",
-      "title": "Learnt how to make changes to this website",
-      "text": "I'm not really a tech-savvy, but I found coding interesting, especially when the output does work well."
-    },
-    {
-      "date": "31 October 2026",
-      "title": "Launched this website",
-      "text": "Created this space to record my progress and share my notes. Goal for the coming weeks: add one study note and one log entry every week."
-    },
-    {
-      "date": "29 October 2026",
-      "title": "Problem-based learning: food poisoning case",
-      "text": "Worked through the biological domain of a typhoid case, with a focus on how glucose is absorbed in the gut."
-    },
-    {
-      "date": "25 October 2026",
-      "title": "Group poster on non-communicable diseases",
-      "text": "Designed a poster with my team on breast cancer awareness in Malaysia. Learned how much clear layout helps a health message land."
-    }
-  ],
   "todos": [
     {
       "task": "PPD 1041 Mental health video reflection",
@@ -203,66 +175,11 @@
       "due": "20 Nov"
     }
   ],
-  "gallery": [
-  {
-    "name": "Calligraphy",
-    "works": [
-      {
-        "title": "蜀素帖临摹 I",
-        "date": "2022",
-        "image": "Calligraphy_1.jpeg"
-      },
-      {
-        "title": "蜀素帖临摹 II",
-        "date": "2022",
-        "image": "Calligraphy_2.jpeg"
-      },
-      {
-        "title": "治城（陈轩作）I",
-        "date": "2023",
-        "image": "Calligraphy_3.jpeg"
-      },
-      {
-        "title": "治城（陈轩作）II",
-        "date": "2023",
-        "image": "Calligraphy_4.jpeg"
-      },
-      {
-        "title": "游鼓山（朱德作）I",
-        "date": "2023",
-        "image": "Calligraphy_5.jpeg"
-      },
-       {
-        "title": "游鼓山（朱德作）II",
-        "date": "2023",
-        "image": "Calligraphy_6.jpeg"
-      },
-       {
-        "title": "利州南渡（温庭筠作）",
-        "date": "2023",
-        "image": "Calligraphy_7.jpg"
-      }
-    ]
-  },
-  {
-    "name": "Drawing",
-    "works": [
-      {
-        "title": "A lurking crocodile",
-        "date": "November 2026",
-        "image": "Drawing_1.jpg"
-      }
-    ]
-  }
-],
   "writing": [
   {
     "title": "Beauty",
     "date": "2024",
     "body": "Have you ever beheld such a paragon of indefatigable beauty? This exquisite creation ought to be venerated and lauded for countless years, a shining testament to human ingenuity. Its very existence speaks to the unparalleled craftsmanship that only human hands could bestow, an artefact of profound and enduring magnificence. This is no mere object but a testament to the timeless brilliance of human artistry."
   }
-],
-  "music": [
-  { "youtube": "https://youtu.be/0-7IHOXkiV8?si=OJUkAUagtAhNUDLM" }
 ]
 }
