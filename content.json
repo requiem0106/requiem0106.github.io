@@ -55,6 +55,7 @@
     "name": "Acute inflammation",
     "files": [
       { "label": "Case scenario acute inflammation", "url": "Case_scenario_acute_inflammation.pdf", "important": true },
+      { "label": "Lecture note", "url": "Acute_inflammation_note.pdf" },
       { "label": "Acute inflammation", "url": "Acute_inflammation.pdf" },
       { "label": "Mediators of inflammation", "url": "Mediators_of_inflammation.pdf" },
       { "label": "Leukocyte migration", "url": "Leukocyte_migration.pdf" },
