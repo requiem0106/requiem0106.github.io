@@ -37,7 +37,7 @@
   {
     "name": "Adaptation, reversible and irreversible cell injury and tissue degeneration",
     "files": [
-      { "label": "Case scenario adaptation, reversible and irreversible cell injury and tissue degeneration", "url": "Case_scenario.pdf?v=3", "important": true },
+      { "label": "Case scenario", "url": "Case_scenario.pdf?v=3", "important": true },
       { "label": "Lecture notes I", "url": "Cellular_adaptation_compressed" },
       { "label": "Lecture notes II", "url": "Irreversible_cell_injury_notes_compressed" },
       { "label": "Cell injury mechanism", "url": "Cell_injury_mechanism.pdf?v=2" },
@@ -54,7 +54,7 @@
   {
     "name": "Acute inflammation",
     "files": [
-      { "label": "Case scenario acute inflammation", "url": "Case_scenario_acute_inflammation.pdf", "important": true },
+      { "label": "Case scenario", "url": "Case_scenario_acute_inflammation.pdf", "important": true },
       { "label": "Lecture note", "url": "Acute_inflammation_note.pdf" },
       { "label": "Acute inflammation", "url": "Acute_inflammation.pdf" },
       { "label": "Mediators of inflammation", "url": "Mediators_of_inflammation.pdf" },
