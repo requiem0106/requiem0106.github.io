@@ -97,6 +97,14 @@
         {
           "label": "Week 2",
           "title": "Pathological Processes II & Pharmacology II",
+           "folders": [
+  {
+    "name": "Chronic inflammation",
+    "files": [
+      { "label": "Lecture note", "url": "Chronic_inflammation_lecture_note.pdf" }
+    ]
+  }
+],   
           "notes": []
         },
         {
