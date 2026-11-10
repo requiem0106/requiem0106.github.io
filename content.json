@@ -38,8 +38,8 @@
     "name": "Adaptation, reversible and irreversible cell injury and tissue degeneration",
     "files": [
       { "label": "Case scenario", "url": "Case_scenario.pdf?v=3", "important": true },
-      { "label": "Lecture notes I", "url": "Cellular_adaptation_compressed" },
-      { "label": "Lecture notes II", "url": "Irreversible_cell_injury_notes_compressed" },
+      { "label": "Lecture notes I", "url": "Cellular_adaptation_compressed.pdf" },
+      { "label": "Lecture notes II", "url": "Irreversible_cell_injury_notes_compressed.pdf" },
       { "label": "Cell injury mechanism", "url": "Cell_injury_mechanism.pdf?v=2" },
       { "label": "Intracellular accumulation mechanism", "url": "Intracellular_accumulation_mechanism.pdf" },
       { "label": "Metastatic and dystrophy calcification", "url": "Metastatic_and_dystrophy_calcification.pdf" }
@@ -48,7 +48,7 @@
   {
     "name": "Introduction to pharmacology drug development",
     "files": [
-      { "label": "Lecture note", "url": "Introduction_to_pharmacology_drug_development_compressed"}
+      { "label": "Lecture note", "url": "Introduction_to_pharmacology_drug_development_compressed.pdf"}
     ]
   },
   {
@@ -71,7 +71,7 @@
   {
     "name": "Dosage form and routes of administration",
     "files": [
-      { "label": "Lecture note", "url": "Dosage_form_and_routes_of_administration_compressed"}
+      { "label": "Lecture note", "url": "Dosage_form_and_routes_of_administration_compressed.pdf"}
     ]
   },
   {
@@ -88,7 +88,7 @@
   {
     "name": "Environmental pathology",
     "files": [
-      { "label": "Lecture note", "url": "Environmental_pathology_compressed"}
+      { "label": "Lecture note", "url": "Environmental_pathology_compressed.pdf"}
     ]
   }
 ],
@@ -101,7 +101,7 @@
   {
     "name": "Chronic inflammation",
     "files": [
-      { "label": "Lecture note", "url": "Chronic_inflammation_lecture_note.pdf" }
+      { "label": "Lecture note", "url": "Chronic_inflammation_lecture_note_compressed.pdf" }
     ]
   }
 ],   
