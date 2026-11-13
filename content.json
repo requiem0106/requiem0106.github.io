@@ -103,6 +103,19 @@
     "files": [
       { "label": "Lecture note", "url": "Chronic_inflammation_lecture_note_compressed.pdf" }
     ]
+  },
+  {
+    "name": "Carcinogenesis",
+    "files": [
+      { "label": "Lecture note", "url": "Carcinogenesis_compressed.pdf"},
+      { "label": "Introduction to cancer", "url": "Introduction_to_cancer_compressed.pdf"},
+    ]
+  },
+  {
+    "name": "Occupational diseases",
+    "files": [
+      { "label": "Lecture note", "url": }
+    ]
   }
 ],   
           "notes": []
@@ -110,8 +123,14 @@
         {
           "label": "Week 3",
           "title": "Pharmacology III",
-          "notes": []
-        },
+          "folders": [
+  {
+    "name": "Neoplasia",
+    "files": [
+      { "label": "Lecture note", "url": "Lecture_notes_neoplasia_compressed.pdf" }
+    ]
+  }
+],
         {
           "label": "Week 4",
           "title": "Medical Microbiology I",
