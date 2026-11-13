@@ -108,7 +108,7 @@
     "name": "Carcinogenesis",
     "files": [
       { "label": "Lecture note", "url": "Carcinogenesis_compressed.pdf"},
-      { "label": "Introduction to cancer", "url": "Introduction_to_cancer_compressed.pdf"},
+      { "label": "Introduction to cancer", "url": "Introduction_to_cancer_compressed.pdf"}
     ]
   },
   {
@@ -131,6 +131,8 @@
     ]
   }
 ],
+           "notes": []
+        },
         {
           "label": "Week 4",
           "title": "Medical Microbiology I",
