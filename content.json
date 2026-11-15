@@ -108,7 +108,8 @@
     "name": "Carcinogenesis",
     "files": [
       { "label": "Lecture note", "url": "Carcinogenesis_compressed.pdf"},
-      { "label": "Introduction to cancer", "url": "Introduction_to_cancer_compressed.pdf"}
+      { "label": "Introduction to cancer", "url": "Introduction_to_cancer_compressed.pdf"},
+      { "label": "Neoplasia:Carcinogenesis ", "url": "Neoplasia_carcinogenesis.pdf" }
     ]
   },
   {
@@ -127,7 +128,8 @@
   {
     "name": "Neoplasia",
     "files": [
-      { "label": "Lecture note", "url": "Lecture_notes_neoplasia_compressed.pdf" }
+      { "label": "Lecture note", "url": "Lecture_notes_neoplasia_compressed.pdf" },
+      { "label": "Neoplasia", "url": "Neoplasia.pdf" }
     ]
   },
   {
