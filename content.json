@@ -114,7 +114,7 @@
   {
     "name": "Occupational diseases",
     "files": [
-      { "label": "Lecture note", "url": ""}
+      { "label": "Lecture note", "url": "Occupational_diseases_lecture_compressed.pdf"}
     ]
   }
 ],   
@@ -128,6 +128,15 @@
     "name": "Neoplasia",
     "files": [
       { "label": "Lecture note", "url": "Lecture_notes_neoplasia_compressed.pdf" }
+    ]
+  },
+  {
+    "name": "Pharmacodynamics",
+    "files": [
+      { "label": "Lecture note I", "url": "Pharmacodynamics_I_lecture_compressed.pdf" },
+      { "label": "Lecture note II", "url": "Pharmacodynamics_II_lecture_compressed.pdf" },
+      { "label": "Pharmacodynamics I", "url": "Pharmacodynamics_I.pdf" },
+      { "label": "Pharmacodynamics II", "url": "Pharmacodynamics_II.pdf" }
     ]
   }
 ],
