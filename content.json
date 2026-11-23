@@ -160,6 +160,20 @@
       { "label": "Lecture note", "url": "Medical_mycology_lecture_note.pdf" },
       { "label": "Case scenario", "url": "Case_scenario_medical_mycology.pdf", "important": true }
     ]
+  },
+  {
+    "name": "Adrenergic drugs",
+    "files": [
+      { "label": "Lecture note agonists", "url": "" },
+      { "label": "Lecture note antagonists", "url": "" }
+    ]
+  },
+  {
+    "name": "Cholinergic drugs",
+    "files": [
+      { "label": "Lecture note agonists", "url": "" },
+      { "label": "Lecture note antagonists", "url": "" }
+    ]
   }
 ],
           "notes": []
