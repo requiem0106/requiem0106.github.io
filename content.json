@@ -210,6 +210,16 @@
   ],
   "todos": [
     {
+      "task": "MPU 3382 Project: Individual submission",
+      "done": false,
+      "due": "11 Dec"
+    },
+    {
+      "task": "MPU 3382 Project: Group report and video submission",
+      "done": false,
+      "due": "11 Dec"
+    },
+    {
       "task": "Pathology practical assessment: neoplasia",
       "done": false,
       "due": "6 Dec"
