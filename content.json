@@ -147,6 +147,15 @@
         {
           "label": "Week 4",
           "title": "Medical Microbiology I",
+          "folders": [
+  {
+    "name": "Medical mycology",
+    "files": [
+      { "label": "Lecture note", "url": "Medical_mycology_lecture_note.pdf" },
+      { "label": "Case scenario", "url": "Case_scenario_medical_mycology.pdf", "important": true }
+    ]
+  }
+],
           "notes": []
         },
         {
