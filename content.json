@@ -144,7 +144,7 @@
   {
     "name": "Basic epidemiology",
     "files": [
-      { "label": "Lecture note", "url": "Lecture_note_basic_epidemiology.pdf" }
+      { "label": "Lecture note", "url": "Lecture_note_basic_epidemiology_compressed.pdf" }
     ]
   }
 ],
@@ -196,6 +196,16 @@
   ],
   "todos": [
     {
+      "task": "Pathology practical assessment: neoplasia",
+      "done": false,
+      "due": "6 Dec"
+    },
+    {
+      "task": "Pathology practical assessment",
+      "done": false,
+      "due": "23 Dec"
+    },
+    {
       "task": "PPD 1041 Mental health video reflection",
       "done": true,
       "due": "4 Nov"
@@ -207,7 +217,7 @@
     },
     {
       "task": "MPU 31102 Penghantaran poster",
-      "done": false,
+      "done": true,
       "due": "22 Nov"
     },
     {
@@ -221,12 +231,12 @@
     },
     {
       "task": "MPU 31102 Kuiz LU7",
-      "done": false,
+      "done": true,
       "due": "22 Nov"
     },
     {
       "task": "MDP 10906 Quiz Assessment",
-      "done": false,
+      "done": true,
       "due": "20 Nov"
     }
   ],
