@@ -140,6 +140,12 @@
       { "label": "Pharmacodynamics I", "url": "Pharmacodynamics_I.pdf" },
       { "label": "Pharmacodynamics II", "url": "Pharmacodynamics_II.pdf" }
     ]
+  },
+  {
+    "name": "Basic epidemiology",
+    "files": [
+      { "label": "Lecture note", "url": "Lecture_note_basic_epidemiology.pdf" }
+    ]
   }
 ],
            "notes": []
