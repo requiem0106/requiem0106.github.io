@@ -172,14 +172,16 @@
     "files": [
       { "label": "Quick notes agonists", "url": "Table_adrenergic_agonist.pdf" },
       { "label": "Lecture note antagonists", "url": "Lecture_note_antagonist_compressed.pdf" },
-      { "label": "Quick notes antagonists", "url": "Table_adrenergic_antagonist.pdf" }
+      { "label": "Quick notes antagonists", "url": "Table_adrenergic_antagonist.pdf" },
+      { "label": "Notes", "url": "Notes_adrenergic.pdf" }
     ]
   },
   {
     "name": "Cholinergic drugs",
     "files": [
       { "label": "Lecture note agonists", "url": "Lecture_note_cholinergic_agonist_compressed.pdf" },
-      { "label": "Lecture note antagonists", "url": "Lecture_note_cholinergic_antagonist_compressed.pdf" }
+      { "label": "Lecture note antagonists", "url": "Lecture_note_cholinergic_antagonist_compressed.pdf" },
+      { "label": "Notes", "url": "Notes_cholinergic.pdf" },
     ]
   }
 ],
