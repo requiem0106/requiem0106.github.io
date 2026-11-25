@@ -170,8 +170,9 @@
   {
     "name": "Adrenergic drugs",
     "files": [
-      { "label": "Lecture note agonists", "url": "" },
-      { "label": "Lecture note antagonists", "url": "" }
+      { "label": "Quick notes agonists", "url": "Table_adrenergic_agonist.pdf" },
+      { "label": "Lecture note antagonists", "url": "Lecture_note_antagonist_compressed.pdf" },
+      { "label": "Quick notes antagonists", "url": "Table_adrenergic_antagonist.pdf" }
     ]
   },
   {
